@@ -474,6 +474,16 @@
 			}
 		},
 		{
+			"name": "punctuation",
+			"scope": [
+				"punctuation",
+				"punctuation.separator"
+			  ],
+			"settings": {
+				"foreground": "#596063"
+			}
+		},
+		{
 			"name": "Library function",
 			"scope": "support.function",
 			"settings": {
@@ -592,13 +602,6 @@
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#FFFFFF"
-			}
-		},
-		{
-			"name": "punctuation",
-			"scope": "punctuation.separator",
-			"settings": {
-				"foreground": "#aab0a5"
 			}
 		},
 		{
