@@ -349,6 +349,17 @@
 			}
 		},
 		{
+			"name": "Keyword operator",
+			"scope": [
+				"keyword.operator",
+				"entity.name.function.member.overload"
+			  ],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#bbc7b2"
+			}
+		},
+		{
 			"name": "Keyword Objects",
 			"scope": [
 				"keyword.other.class",
