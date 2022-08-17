@@ -360,6 +360,16 @@
 			}
 		},
 		{
+			"name": "Keyword",
+			"scope": [
+				"keyword.control",
+				"keyword.other.new"
+			  ],
+			"settings": {
+				"foreground": "#5b808e"
+			}
+		},
+		{
 			"name": "Keyword Objects",
 			"scope": [
 				"keyword.other.class",
