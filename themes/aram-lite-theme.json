@@ -366,6 +366,7 @@
 				"keyword.other.interface"
 			  ],
 			"settings": {
+				"fontStyle": "underline",
 				"foreground": "#5b808e"
 			}
 		},
