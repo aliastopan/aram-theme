@@ -346,6 +346,17 @@
 			}
 		},
 		{
+			"name": "Namespaces",
+			"scope": [
+				"entity.name.namespace",
+				"entity.name.type.namespace",
+				"entity.name.scope-resolution"
+			  ],
+			"settings": {
+				"foreground": "#bbc7b2"
+			}
+		},
+		{
 			"name": "Storage",
 			"scope": "storage",
 			"settings": {
@@ -364,9 +375,7 @@
 			"name": "Class name",
 			"scope": [
 				"entity.name.class",
-				"entity.name.type",
-				"entity.name.namespace",
-				"entity.name.scope-resolution"
+				"entity.name.type"
 			],
 			"settings": {
 				"foreground": "#adde66"
