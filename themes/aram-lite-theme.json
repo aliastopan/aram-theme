@@ -340,9 +340,29 @@
 		},
 		{
 			"name": "Keyword",
-			"scope": "keyword",
+			"scope": [
+				"keyword.type",
+				"keyword.other.class",
+				"keyword.other.interface",
+				"keyword.other.var"
+			  ],
 			"settings": {
 				"foreground": "#5b808e"
+			}
+		},
+		{
+			"name": "Keyword using",
+			"scope": "keyword.other.using.cs",
+			"settings": {
+				"foreground": "#64c9e7"
+			}
+		},
+		{
+			"name": "Keyword namespace",
+			"scope": "keyword.other.namespace.cs",
+			"settings": {
+				"fontStyle": "underline",
+				"foreground": "#64c9e7"
 			}
 		},
 		{
