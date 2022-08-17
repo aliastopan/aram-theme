@@ -1,7 +1,7 @@
 {
-	"name": "aram-lite",
-	"displayName": "Aram Lite",
-	"description": "Aram Lite",
+	"name": "aram",
+	"displayName": "Aram Theme",
+	"description": "",
 	"version": "0.0.1",
 	"engines": {
 	  "vscode": "^1.70.0"
@@ -12,9 +12,9 @@
 	"contributes": {
 	  "themes": [
 		{
-		  "label": "Aram Lite",
+		  "label": "Aram Theme",
 		  "uiTheme": "vs-dark",
-		  "path": "./themes/aram-lite-theme.json"
+		  "path": "./themes/aram-theme.json"
 		}
 	  ]
 	}
