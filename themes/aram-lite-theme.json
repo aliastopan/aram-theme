@@ -54,9 +54,9 @@
 		"gitDecoration.ignoredResourceForeground": "#FFFFFF",
 		"quickInput.background": "#1e1e1e",
 		"quickInput.foreground": "#FFFFFF",
-		"editor.background": "#1e1e1e",
+		"editor.background": "#242a2e",
+		"editor.foreground": "#bbc7b2",
 		"editorCursor.foreground": "#FFFFFF",
-		"editor.foreground": "#E5E5E1",
 		"editor.lineHighlightBackground": "#28272d",
 		"editor.selectionBackground": "#28272d",
 		"editor.selectionHighlightBackground": "#28272d",
@@ -87,7 +87,7 @@
 	"tokenColors": [
 		{
 			"settings": {
-				"foreground": "#72ACF1"
+				"foreground": "#5b808e"
 			}
 		},
 		{
@@ -96,14 +96,14 @@
 				"source.groovy.embedded"
 			],
 			"settings": {
-				"foreground": "#72ACF1"
+				"foreground": "#5b808e"
 			}
 		},
 		{
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#4d4d4d"
 			}
 		},
 		{
@@ -117,14 +117,14 @@
 			"name": "Number",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#f7B548"
+				"foreground": "#bbc7b2"
 			}
 		},
 		{
 			"name": "Built-in constant",
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#f7B548"
+				"foreground": "#bbc7b2"
 			}
 		},
 		{
@@ -134,21 +134,42 @@
 				"constant.other"
 			],
 			"settings": {
-				"foreground": "#2bc2d1"
+				"foreground": "#8da189"
 			}
 		},
 		{
 			"name": "Variable",
 			"scope": "variable",
 			"settings": {
-				"fontStyle": ""
+				"foreground": "#bbc7b2"
+			}
+		},
+		{
+			"name": "Variable field",
+			"scope": "entity.name.variable.field",
+			"settings": {
+				"foreground": "#bbc7b2"
+			}
+		},
+		{
+			"name": "Variable property",
+			"scope": "entity.name.property.field",
+			"settings": {
+				"foreground": "#bbc7b2"
+			}
+		},
+		{
+			"name": "Local variable",
+			"scope": "entity.name.variable.local",
+			"settings": {
+				"foreground": "#bbc7b2"
 			}
 		},
 		{
 			"name": "Keyword",
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#72ACF1"
+				"foreground": "#5b808e"
 			}
 		},
 		{
@@ -156,15 +177,14 @@
 			"scope": "storage",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#72ACF1"
+				"foreground": "#5b808e"
 			}
 		},
 		{
 			"name": "Storage type",
 			"scope": "storage.type",
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#A7CBF6"
+				"foreground": "#bbc7b2"
 			}
 		},
 		{
@@ -176,32 +196,37 @@
 				"entity.name.scope-resolution"
 			],
 			"settings": {
-				"fontStyle": "underline",
-				"foreground": "#FFE5B9"
+				"foreground": "#adde66"
 			}
 		},
 		{
 			"name": "Inherited class",
 			"scope": "entity.other.inherited-class",
 			"settings": {
-				"fontStyle": "italic underline",
-				"foreground": "#FFD590"
+				"foreground": "#adde66"
 			}
 		},
 		{
 			"name": "Function name",
 			"scope": "entity.name.function",
 			"settings": {
-				"fontStyle": "",
-				"foreground": "#FFD590"
+				"foreground": "#adde66"
+			}
+		},
+		{
+			"name": "Function name",
+			"scope": "entity.name.function.member",
+			"settings": {
+				"fontStyle": "underline",
+				"foreground": "#64c9e7"
 			}
 		},
 		{
 			"name": "Function argument",
 			"scope": "variable.parameter",
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#a7cbf6"
+				"fontStyle": "underline",
+				"foreground": "#bbc7b2"
 			}
 		},
 		{
@@ -209,7 +234,7 @@
 			"scope": "entity.name.tag",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#a7cbf6"
+				"foreground": "#bbc7b2"
 			}
 		},
 		{
@@ -217,7 +242,7 @@
 			"scope": "entity.other.attribute-name",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#FFD590"
+				"foreground": "#64c9e7"
 			}
 		},
 		{
@@ -276,7 +301,6 @@
 				"meta.diff.header"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#c3f2f4"
 			}
 		},
@@ -347,7 +371,7 @@
 			"scope": "punctuation.separator",
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#f7B548"
+				"foreground": "#bbc7b2"
 			}
 		},
 		{
@@ -358,7 +382,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#72ACF1"
+				"foreground": "#5b808e"
 			}
 		}
 	]
