@@ -339,12 +339,20 @@
 			}
 		},
 		{
-			"name": "Keyword",
+			"name": "Type",
 			"scope": [
 				"keyword.type",
-				"keyword.other.class",
-				"keyword.other.interface",
 				"keyword.other.var"
+			  ],
+			"settings": {
+				"foreground": "#6290a2"
+			}
+		},
+		{
+			"name": "Keyword Objects",
+			"scope": [
+				"keyword.other.class",
+				"keyword.other.interface"
 			  ],
 			"settings": {
 				"foreground": "#5b808e"
@@ -380,8 +388,15 @@
 			"name": "Storage",
 			"scope": "storage",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#5b808e"
+			}
+		},
+		{
+			"name": "Access modifier",
+			"scope": "storage.modifier",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#4e6d78"
 			}
 		},
 		{
@@ -572,8 +587,7 @@
 			"name": "punctuation",
 			"scope": "punctuation.separator",
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#bbc7b2"
+				"foreground": "#aab0a5"
 			}
 		},
 		{
